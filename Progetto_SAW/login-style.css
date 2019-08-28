@@ -1,0 +1,77 @@
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700";
+@import "https://fonts.googleapis.com/css?family=Sofia";
+body{
+    margin: 0;
+    padding: 0;
+    background: #2E3740;
+    color: #435160;
+    font-family: "Open Sans", sans-serif;
+}
+
+.login-box{
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -175px;
+}
+
+.login-box h1{
+    text-align: center;
+    font-family: "Sofia", cursive;
+    font-size: 40px;
+    border-bottom: 3px solid #6D7781;
+    margin-bottom: 50px;
+    padding: 13px 0
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px  0;
+    margin: 8px 0;
+    border-bottom: 1px solid #6D7781;
+
+}
+
+.textbox i{
+    width: 26px;
+    float: left;
+    color: #6D7781;
+    text-align: center;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #6D7781;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin:  0 10px;
+}
+
+.btn{
+    background: #1FCE6D;
+    border: 0;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 0 12px 16px 0 rgba(248, 5, 38, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn:active {
+    transform: translateY(4px);
+}
+
